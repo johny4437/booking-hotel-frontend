@@ -1,0 +1,97 @@
+.searchItem{
+    border:1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.srcImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.srcDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex:2;
+}
+.srcTitle{
+    font-size: 20px;
+    color:#0071c2;
+}
+.srcDistance{
+    font-size: 12px;
+}
+.srcTaxiOp{
+    font-size: 12px;
+    background-color: #008009;
+    color:#fff;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.srcSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.srcFeatures{
+    font-size: 12px;
+}
+.srcCancelOp{
+    font-size: 12px;
+    color:#008009;
+    font-weight: bold;
+}
+.srcCancelOpSubtitle{
+    font-size: 12px;
+    color:#008009;
+}
+.srcDetails{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.srcRating{
+    display: flex;
+    justify-content: space-between;
+}
+.srcRating>span{
+    font-weight: 500;
+}
+.srcRating>button{
+    background-color: #003580;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    border-radius: 3px 3px 3px 0px;
+}
+.srcDetailTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.srcPrice{
+    font-size: 24px;
+}
+.srcTaxOp{
+    font-size: 12px;
+    color:gray;
+}
+.srcCheckButton{
+    background-color: #0071c2;
+    border: none;
+    color:#fff;
+    padding: 10px 5px;
+    cursor: pointer;
+    font-weight: bold;
+}

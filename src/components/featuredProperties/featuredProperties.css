@@ -1,0 +1,40 @@
+.fProperties {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.fPropItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.fpImg {
+  width: 100%;
+}
+
+.fpName {
+  font-weight: bold;
+}
+.fpCity{
+    font-weight: 300;
+}
+.fPrice{
+    font-weight: 500;
+}
+.fpRating button{
+    border: none;
+    color:#ffff;
+    font-weight: bold;
+    background-color: #003580;
+    text-align: center;
+    margin-right: 8px;
+    padding: 3px;
+    border-radius: 4px 4px 4px 0px;
+}
+
+.fpRating span{
+    font-size: 14px;
+}
